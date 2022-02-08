@@ -1,0 +1,26 @@
+﻿<Window x:Class="Tutorial_12_ZooManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial_12_ZooManager"
+        mc:Ignorable="d"
+        Title="ZooManager" Height="430" Width="565">
+    <Grid>
+        <Label Content="Zooliste" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <ListBox Name="lbxZooListe" HorizontalAlignment="Left" SelectionChanged="lbxZooListe_SelectionChanged" Height="175" Margin="10,41,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Tiere in ausgewähltem Zoo" HorizontalAlignment="Left" Margin="200,10,0,0" VerticalAlignment="Top" Width="160"/>
+        <ListBox Name="lbxAssociatedAnimals" HorizontalAlignment="Left" Height="175" Margin="200,41,0,0" VerticalAlignment="Top" Width="150"/>
+        <ListBox Name="lbxAnimalListe" HorizontalAlignment="Left" Height="299" Margin="390,41,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="lbxAnimalListe_SelectionChanged"/>
+        <TextBox Name="tbAddZooOrAnimal"  HorizontalAlignment="Left" Height="30" Margin="10,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <Button Name="btZooDelete" Content="Zoo löschen" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btZooDelete_Click"/>
+        <Button Name="btAnimalRemove" Content="Tier entfernen" HorizontalAlignment="Left" Margin="200,230,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btAnimalRemove_Click"/>
+        <Button Name="btZooAdd" Content="Zoo hinzufügen" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btZooAdd_Click"/>
+        <Button Name="btZooUpdate" Content="Zoo aktualisieren" HorizontalAlignment="Left" Margin="10,350,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btZooUpdate_Click"/>
+        <Button Name="btAnimalAdd" Content="Tier hinzufügen" HorizontalAlignment="Left" Margin="200,310,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btAnimalAdd_Click"/>
+        <Button Name="btAnimalUpdate" Content="Tier aktualisieren" HorizontalAlignment="Left" Margin="200,350,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btAnimalUpdate_Click"/>
+        <Button Name="btAnimalDelete" Content="Tier löschen" HorizontalAlignment="Left" Margin="390,350,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btAnimalDelete_Click"/>
+        <Button Name="btAnimalToZeeAdd" Content="Tier zu Zoo hinzufügen" HorizontalAlignment="Left" Margin="390,9,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btAnimalToZeeAdd_Click"/>
+
+    </Grid>
+</Window>

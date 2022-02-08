@@ -1,0 +1,12 @@
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\bin\Release\netcoreapp2.1\ZweitesProjekt.deps.json
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\bin\Release\netcoreapp2.1\ZweitesProjekt.runtimeconfig.json
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\bin\Release\netcoreapp2.1\ZweitesProjekt.runtimeconfig.dev.json
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\bin\Release\netcoreapp2.1\ZweitesProjekt.dll
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\bin\Release\netcoreapp2.1\ZweitesProjekt.pdb
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\bin\Release\netcoreapp2.1\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\obj\Release\netcoreapp2.1\ZweitesProjekt.csprojAssemblyReference.cache
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\obj\Release\netcoreapp2.1\ZweitesProjekt.AssemblyInfoInputs.cache
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\obj\Release\netcoreapp2.1\ZweitesProjekt.AssemblyInfo.cs
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\obj\Release\netcoreapp2.1\ZweitesProjekt.csproj.CopyComplete
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\obj\Release\netcoreapp2.1\ZweitesProjekt.dll
+C:\Users\WBAKAESS\source\repos\ZweitesProjekt\obj\Release\netcoreapp2.1\ZweitesProjekt.pdb

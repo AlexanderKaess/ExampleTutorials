@@ -1,0 +1,32 @@
+﻿<Window x:Class="Tutorial_11_GUI_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial_11_GUI_4"
+        mc:Ignorable="d"
+        Title="Pizzabelag auswahl" Height="450" Width="800">
+    <StackPanel>
+        <ComboBox Name="comboBoxColors">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Fill="{Binding Name}" Width="32" Height="32" Margin="5"/>
+                        <TextBlock Text="{Binding Name}" FontSize="32"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Label FontWeight="Bold">Pizzabelag</Label>
+        <CheckBox Name="cbAllTopings" IsThreeState="True" ToolTip="ToolTip: Klicke mich um alle Beläge auszuwählen" Checked="cbAllTopings_Checked" Unchecked="cbAllTopings_Checked">Alle hinzufügen</CheckBox>
+        <StackPanel Margin="10">
+            <CheckBox Name="cbSalami" Checked="cbSingleCheckedChanged" Unchecked="cbSingleCheckedChanged">
+                <TextBlock>
+                    Salami <Run Foreground="Red" FontWeight="Bold">Scharf</Run>
+                </TextBlock>
+            </CheckBox>
+            <CheckBox Name="cbMushrooms" Checked="cbSingleCheckedChanged" Unchecked="cbSingleCheckedChanged">Pilze</CheckBox>
+            <CheckBox Name="cbMozarella" Checked="cbSingleCheckedChanged" Unchecked="cbSingleCheckedChanged">Mozarella</CheckBox>
+        </StackPanel>
+    </StackPanel>
+</Window>

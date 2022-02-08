@@ -1,0 +1,33 @@
+﻿<Window x:Class="Tutorial_11_GUI_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial_11_GUI_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <Label FontWeight="Bold" FontSize="20">Magst du mich?</Label>
+        <RadioButton Name="rbJa" Margin="5" Checked="Ja_RadioButton_Checked">
+            <!--Containier für Radiobutton und Text-->
+            <WrapPanel>
+                <Rectangle Fill="Green" Width="16" Height="16"/>
+                <TextBlock Text="JA" Foreground="Green" Margin="5,0,0,0"/>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton Margin="5" Checked="Nein_RadioButton_Checked">
+            <!--Containier für Radiobutton und Text-->
+            <WrapPanel>
+                <Rectangle Fill="Red" Width="16" Height="16"/>
+                <TextBlock Text="NEIN" Foreground="Red" Margin="5,0,0,0"/>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton Margin="5" Checked="Bild_RadioButton_Checked">
+            <!-- Container für Radionbutton und Text-->
+            <WrapPanel>
+                <Image Source="C:\Users\WBAKAESS\source\repos\Tutorial_11_GUI_5\121.png" Width="50"/>
+                <TextBlock Text="Bild Hallo" Foreground="RoyalBlue" Margin="5,0,0,0"/>
+            </WrapPanel>
+        </RadioButton>
+    </StackPanel>
+</Window>

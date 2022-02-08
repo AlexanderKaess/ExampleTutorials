@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial_Polymorphie", "Tutorial_Polymorphie.csproj", "{B2DB23C1-6C18-4AEA-BF87-725ED3F90235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2DB23C1-6C18-4AEA-BF87-725ED3F90235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DB23C1-6C18-4AEA-BF87-725ED3F90235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DB23C1-6C18-4AEA-BF87-725ED3F90235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DB23C1-6C18-4AEA-BF87-725ED3F90235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35148BE5-D097-4204-93BC-4568D31A6B4D}
+	EndGlobalSection
+EndGlobal

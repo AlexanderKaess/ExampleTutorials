@@ -1,0 +1,11 @@
+C:\Users\WBAKAESS\source\repos\Threading3\bin\Debug\netcoreapp3.0\Threading3.exe
+C:\Users\WBAKAESS\source\repos\Threading3\bin\Debug\netcoreapp3.0\Threading3.deps.json
+C:\Users\WBAKAESS\source\repos\Threading3\bin\Debug\netcoreapp3.0\Threading3.runtimeconfig.json
+C:\Users\WBAKAESS\source\repos\Threading3\bin\Debug\netcoreapp3.0\Threading3.runtimeconfig.dev.json
+C:\Users\WBAKAESS\source\repos\Threading3\bin\Debug\netcoreapp3.0\Threading3.dll
+C:\Users\WBAKAESS\source\repos\Threading3\bin\Debug\netcoreapp3.0\Threading3.pdb
+C:\Users\WBAKAESS\source\repos\Threading3\obj\Debug\netcoreapp3.0\Threading3.csprojAssemblyReference.cache
+C:\Users\WBAKAESS\source\repos\Threading3\obj\Debug\netcoreapp3.0\Threading3.AssemblyInfoInputs.cache
+C:\Users\WBAKAESS\source\repos\Threading3\obj\Debug\netcoreapp3.0\Threading3.AssemblyInfo.cs
+C:\Users\WBAKAESS\source\repos\Threading3\obj\Debug\netcoreapp3.0\Threading3.dll
+C:\Users\WBAKAESS\source\repos\Threading3\obj\Debug\netcoreapp3.0\Threading3.pdb

@@ -1,0 +1,26 @@
+﻿<Window x:Class="ShutDownTimer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShutDownTimer"
+        mc:Ignorable="d"
+        Title="ShutDownTimer" Height="250" Width="700">
+    <Grid>
+        <Button Name="btStart" Content="Start" HorizontalAlignment="Left" Margin="50,150,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="btStart_Click"/>
+        <Button Name="btStop" Content="Stop" HorizontalAlignment="Left" Margin="170,150,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="btStop_Click"/>
+        <GroupBox Name="gbTimer" Header="Timer" HorizontalAlignment="Left" Height="120" Margin="50,10,0,0" VerticalAlignment="Top" Width="220">
+            <Label Name="lblTimer" Content="00:00:00" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Width="119" FontSize="20" FontWeight="Bold"/>
+        </GroupBox>
+        <Label Name="lblMinutes" Content="Minutes" HorizontalAlignment="Left" Margin="290,70,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblSeconds" Content="Seconds" HorizontalAlignment="Left" Margin="290,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.185,-0.923"/>
+        <Label Name="lblHours" Content="Hours" HorizontalAlignment="Left" Margin="290,30,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tbxHours" HorizontalAlignment="Left" Height="23" Margin="365,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbxMinutes" HorizontalAlignment="Left" Height="23" Margin="365,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbxSeconds"  HorizontalAlignment="Left" Height="23" Margin="365,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <RadioButton Name="rbShutdownPC" Content="Shutdown PC" HorizontalAlignment="Left" Margin="520,36,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbRestartPC" Content="Restart PC" HorizontalAlignment="Left" Margin="520,76,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbSavePowerModusPC" Content="Save Power Modus" HorizontalAlignment="Left" Margin="520,116,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

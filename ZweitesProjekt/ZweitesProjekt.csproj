@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoTouch\v1.0\Facades\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry.AccessControl">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoTouch\v1.0\Facades\Microsoft.Win32.Registry.AccessControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

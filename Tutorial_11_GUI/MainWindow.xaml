@@ -1,0 +1,36 @@
+﻿<Window x:Class="Tutorial_11_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial_11_GUI"
+        mc:Ignorable="d"
+        Title="KaessWindow" Height="600" Width="1000">
+    <!--XAML = Extensible Application MarkUp Language-->
+    <!-- Grid = Ordnet die Elemente irgenwo an 
+    <Grid>
+        <Label Content="ErstesLabel" HorizontalAlignment="Left" Margin="100,80,0,0" VerticalAlignment="Top" Width="140" Height="50"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="100,135,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="84" Margin="78,236,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="279"/>
+        <TextBlock HorizontalAlignment="Left" Margin="492,171,0,0" TextWrapping="Wrap" Text="Hello  World, Kaess is the Best!" VerticalAlignment="Top" Height="93" Width="188"/>
+        <Button Content="Hallo Klick mich!" FontSize="32" Margin="220,368,457,132.333" FontStyle="Italic"/>
+    </Grid>
+    -->
+    <!--Stackpanel = Ordnet die Komponten nach der Reihe untereinander an-->
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center" Margin="20" TextWrapping="Wrap" Text="Hallo World"/>
+        
+        <ListBox Height="100" Width="100">
+            <ListBoxItem Content="Element1"/>
+            <ListBoxItem Content="Element2"/>
+            <ListBoxItem Content="Element3"/>
+            <Button Content="Button" Width="75"/>
+        </ListBox>
+        
+        <!--Button ist Sender des Click-Event an MainWindow.xaml.cs-->
+        <Button Content="Klicke mich - Direkter Event" Click="Button_Click" Margin="20"/>
+        <Button Content="Klicke mich - MouseUP" MouseUp="Button_MouseUp" Margin="20"/>
+        <Button Content="Klicke mich - PreviewMouseUp" PreviewMouseUp="Button_PreviewMouseUp" Margin="20"/>
+
+    </StackPanel>
+</Window>
