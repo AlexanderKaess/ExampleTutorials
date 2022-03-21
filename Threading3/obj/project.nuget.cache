@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0uhNYJL7/LR7ueUbax3Wc0TCitIXA3G7G6ezwec4F8qMrRUMRK2WNDZn2vsHATNgAKP1snwCVmD7Dv3YWLKsYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WBAKAESS\\source\\repos\\ExampleTutorials\\Threading3\\Threading3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WBAKAESS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\WBAKAESS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\WBAKAESS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\WBAKAESS\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
